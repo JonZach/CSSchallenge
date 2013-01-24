@@ -1,0 +1,307 @@
+body{
+	width: 1018px;
+	background: #e3e3e3;
+	font-family: sans-serif;
+	margin: auto;
+}
+
+header{
+	background-image: url("../img/header.jpg");
+	width: 1018px;
+}
+
+header img{
+	width: 300px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 45px;
+
+}
+
+header p{
+	width: 250px;
+	float: right;
+	color: white;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin: 0;
+	font-style: italic;
+	font-family: Arapey;
+	font-size: 120%;
+	
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	clear: both;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline;
+	width: 137px;
+	background-image: url("../img/nav.jpg");
+	padding: 5px 10px 8px 10px;
+	float: left;
+	position: relative;
+	text-align: center;
+	font-size: 91%;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding:10px;
+    display:block;
+    
+}
+
+nav ul li a:hover{
+	color: silver;
+}
+
+h3{
+	font-family: Arapey, serif;
+}
+
+#mainimage{
+	width: 950px;
+	height: 448px;
+	background-image: url("../img/slide02.jpg");
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+#mainimage blockquote{
+	width: 435px;
+	float: right;
+	color: white;
+	text-align: right;
+	padding-top: 130px;
+	padding-bottom: 150px;
+	padding-right: 10px;
+	margin-right: 0px;
+	font-size: 300%;
+	font-family: Arapey, serif;
+	font-weight: bold;
+
+}
+
+#mainimage blockquote span{
+	width: 425px;
+	background: 0, 0, 0, 0.7;
+}
+
+#middlebanner{
+	width: 1018px;
+	clear: both;
+}
+
+.trio{
+	width: 339px;
+	float: left;
+	display: inline-block;
+	background-image: url("../img/header.jpg");	
+	color: white;
+	margin-top: 5px;
+	
+}
+
+#planning1 img, #coding1 img, #optimize1 img{
+	float: left;
+	padding: 10px;
+
+}
+
+#planning1, #coding1, #optimize1{
+	width: 110px;
+	display: inline-block;
+}
+
+#planning2, #coding2, #optimize2{
+	width: 140px;
+	float: right;
+	padding-right: 30px;
+	display: inline-block;	
+	clear: both;
+	text-align: left;
+}
+
+#planning2 h4, #coding2 h4, #optimize2 h4{
+	font-size: 140%;
+	font-family: Arapey, serif;
+}
+
+#planning2 p, #coding2 p, #optimize2 p{
+	font-size: 90%;
+}
+
+#bottom{
+	width: 700px;
+	margin-top: 10px;
+	margin-right: 0;
+	float: left;
+
+}
+
+#creative{
+	width: 650px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	margin-right: 0;
+	border-bottom: 1px solid white;
+
+}
+
+#creative img{
+	float: left;
+	padding-right: 20px;
+}
+
+#popular{
+	width: 360px;
+	float: left;
+	display: inline;
+	padding-top: 10px;
+}
+
+#popular #post2{
+	border-top: 1px solid white;
+}
+
+#perspective{
+	width: 275px;
+	float: left;
+	display: inline;
+	border-left: 1px solid white;
+	padding-left: 30px;
+}
+
+#creative h3, #popular h3{
+	font-size: 150%;
+}
+
+#perspective h3{
+	font-size: 165%;
+}
+
+
+	
+
+#popular ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+
+#popular ul li h4:before{
+	content:"\2713\0020";
+	color: blue;
+}
+#highlights{
+	margin-top: 20px;
+	width: 300px;
+	float: right;
+	overflow: hidden;
+	
+}
+
+aside header{
+	background-image: url("../img/nav.jpg");
+	height: 35px;
+	color: white;
+	padding-top: 8px;
+	font-size: 14px;
+	padding-left: 8px;
+}
+
+#bluetext{
+	font-style: italic;
+	color: blue;
+}
+
+#date1, #date2, #date3{
+	border: 1px solid white;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+
+
+#highlights a{
+	text-decoration: none;
+	font-size: 13px;
+	font-style: italic;
+	color: blue;
+}
+
+#perspective{
+	margin-left: 20px;
+}
+
+
+.dates{
+	font-size: 70%;
+}
+
+#highlights p{
+	font-size: 80%;
+}
+
+.details{
+	text-decoration: none;
+	width: 80px;
+	height: 25px;
+	background: #e3e3e3;
+	color: black;
+	font-weight: bold;
+	display: block;
+	text-align:center;
+	padding-top: 8px;
+	box-shadow: 2px 2px 2px 2px blue;
+	margin-left: 15px;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 10px;
+
+}
+
+#perspective .details{
+	text-decoration: none;
+	width: 80px;
+	height: 25px;
+	background: black;
+	color: #e3e3e3;
+	font-weight: bold;
+	display: block;
+	text-align:center;
+	padding-top: 8px;
+	margin-top: 2px;
+	box-shadow: 1px 2px 1px 2px blue;
+}
+
+p em, #popular h3 ul p em{
+	color: blue;
+}
+
+footer{
+	text-align: right;
+
+
+}
